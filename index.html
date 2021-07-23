@@ -23,6 +23,26 @@
         <div id="unity-build-title">The Tower Game</div>
       </div>
     </div>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBG42xDe8LvVMkXZXc-BE4nYZbTbVI4yT4",
+    authDomain: "unity3dtower.firebaseapp.com",
+    projectId: "unity3dtower",
+    storageBucket: "unity3dtower.appspot.com",
+    messagingSenderId: "642773522039",
+    appId: "1:642773522039:web:01e6c73ec9658e1751d872"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
     <script>
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
